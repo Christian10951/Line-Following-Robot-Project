@@ -1,0 +1,1 @@
+This is a project based on building an Autonomous Line Following Robot. This robot is meant to follow a predetermined path with the use of sensors, microcontroller, and motor driver controller. Details of how the project was developed are in the PDF report. 
