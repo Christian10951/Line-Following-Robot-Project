@@ -137,7 +137,7 @@ void StartLineFollowTask(void *argument)
 {
   (void) argument;
 
-  for(;;)
+  while(1)
   {
     /*Variables for Sensor*/
     uint8_t ir1 = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_6);
@@ -450,3 +450,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
